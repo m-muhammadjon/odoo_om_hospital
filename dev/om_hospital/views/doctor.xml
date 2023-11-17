@@ -23,7 +23,7 @@
 
     <record id="view_hospital_doctor_tree" model="ir.ui.view">
         <field name="name">hospital.doctor.tree</field>
-        <field name="model">hospital.</field>
+        <field name="model">hospital.doctor</field>
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
@@ -54,8 +54,8 @@
         <field name="search_view_id" ref="om_hospital.view_hospital_doctor_search"/>
     </record>
 
-    <menuitem id="menu_doctor"
-              name="Doctor"
+    <menuitem id="menu_doctors"
+              name="Doctors"
               parent="menu_hospital_master_data"
               action="action_hospital_doctor"
               sequence="10"/>

@@ -15,7 +15,7 @@
               name="Master Data"
               parent="menu_hospital_root"
               sequence="10"/>
-    <menuitem id="menu_doctor"
+    <menuitem id="menu_doctors"
               name="Doctors"
               parent="menu_hospital_master_data"
               sequence="10"/>
